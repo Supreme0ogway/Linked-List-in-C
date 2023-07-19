@@ -72,7 +72,7 @@ int main() {
 
     //remove the ints and print
     int* ptr = NULL;
-    while((prt = (int*)removeNode(listOfIntegers)) != NULL) {
+    while((ptr = (int*)removeNode(listOfIntegers)) != NULL) {
         printf("%d\n", *ptr);//print values then next
     }
 
